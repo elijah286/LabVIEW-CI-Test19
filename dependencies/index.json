@@ -1,8 +1,15 @@
 {
   "schema": 1,
   "repo": "elijah286/LabVIEW-CI-Test19",
-  "sha": "73416f3886ab0f718870f1cfa89502bae7919599",
+  "sha": "697eaccee1c454dab69fa0c69e74797e0b3a3f6b",
   "revisions": [
+    {
+      "sha": "697eaccee1c454dab69fa0c69e74797e0b3a3f6b",
+      "short": "697eacc",
+      "message": "Add LabVIEW CI pipeline",
+      "author": "Elijah Kerry",
+      "date": "2026-06-24T22:48:52Z"
+    },
     {
       "sha": "73416f3886ab0f718870f1cfa89502bae7919599",
       "short": "73416f3",
@@ -198,7 +205,13 @@
       "defaultTag": "latest",
       "tag": "latest",
       "ready": true,
-      "packages": [],
+      "packages": [
+        "dataflow_g_lib_g_image-0.5.0.1",
+        "jki_lib_caraya-1.4.4.148",
+        "jki_vi_tester",
+        "ni_lib_junit_results_api-1.0.1.6",
+        "ni_lib_utf_junit_report-1.0.1.43"
+      ],
       "failed_packages": [],
       "nipkg_ready": true,
       "nipkg_packages": [],
