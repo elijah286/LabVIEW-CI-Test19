@@ -1089,7 +1089,7 @@
     // backfill) + the same token and optimistic-queued bridge as every other
     // dispatch on the dashboard.
     var HIST = [{"sha": "2b5fdae2d29a2fa4d86111799d0879e302659b91", "short": "2b5fdae", "msg": "add", "snapshots2": {"windows": {"have": 0, "total": 44}, "linux": {"have": 0, "total": 44}}}];                        // [{sha, short, msg}] newest-first (project revisions)
-    var RAN = {"masscompile": 1, "vi-analyzer": 1};                     // {cap:1} caps with a result/active run somewhere in history
+    var RAN = {"masscompile": 1, "unit-tests": 1, "vi-analyzer": 1};                     // {cap:1} caps with a result/active run somewhere in history
     var CAP_META = {                            // label + sub for each known capability
       'snapshots':   ['VI Snapshots', 'Renders every changed VI (classic HTML snapshots)'],
       'snapshots2':  ['VI Browser 2.0 Snapshots', 'Renders position-aware snapshots for the VI Browser 2.0 view'],
@@ -1495,7 +1495,7 @@
   </script>
   <main class="lvci-main">
   <h1>CI Dashboard — LabVIEW-CI-Test19</h1>
-  <div class="sub">Last updated: 2026-06-24 21:40 UTC &nbsp;|&nbsp; Live — refreshing every 60 s while CI runs</div>
+  <div class="sub">Last updated: 2026-06-24 21:52 UTC &nbsp;|&nbsp; Live — refreshing every 60 s while CI runs</div>
   <div class="nav">
     <a href="https://github.com/elijah286/LabVIEW-CI-Test19">GitHub</a>
     <a href="https://github.com/elijah286/LabVIEW-CI-Test19/actions">Actions</a>
@@ -1603,11 +1603,11 @@
           </div>
         </div>
       </td>
-      <td style="text-align:center"><span class="run-badge" title="Running — click to view progress"><a href="https://github.com/elijah286/LabVIEW-CI-Test19/actions/runs/28131286247" style="color:#fff;text-decoration:none;display:inline-flex;align-items:center;gap:5px"><span class="run-spin"></span>compile</a></span></td>
+      <td style="text-align:center" class="cidash-cap-cell" data-cap="masscompile" data-sha="2b5fdae2d29a2fa4d86111799d0879e302659b91" data-parent="" data-short="2b5fdae" data-ts="2026-06-24T21:52:30Z"><span class="cidash-chip cc-pass"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L1.22 9.28a.75.75 0 1 1 1.06-1.06L6 11.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg><a href="https://elijah286.github.io/LabVIEW-CI-Test19/report/index.html?type=masscompile-report&sha=2b5fdae2d29a2fa4d86111799d0879e302659b91&short=2b5fdae&src=..%2Fmasscompile%2F2b5fdae2d29a2fa4d86111799d0879e302659b91%2Findex.html&title=Mass%20Compile%20%C2%B7%202b5fdae" style="color:inherit">compile</a></span></td>
       <td style="text-align:center" class="cidash-cap-cell" data-cap="vi-analyzer" data-sha="2b5fdae2d29a2fa4d86111799d0879e302659b91" data-parent="" data-short="2b5fdae" data-ts="2026-06-24T21:38:06Z"><span class="cidash-chip cc-warn"><svg viewBox="0 0 16 16" fill="currentColor" aria-hidden="true"><path d="M6.46 1.05c.66-1.23 2.43-1.23 3.08 0l6.08 11.38A1.75 1.75 0 0 1 14.08 15H1.92a1.75 1.75 0 0 1-1.54-2.57ZM8.75 5.75a.75.75 0 0 0-1.5 0v3a.75.75 0 0 0 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg><a href="https://github.com/elijah286/LabVIEW-CI-Test19/actions/runs/28131287613" style="color:inherit">analyze</a></span></td>
       <td style="text-align:center"><a href="#" class="cidash-run" data-cap="vidiff" data-sha="2b5fdae2d29a2fa4d86111799d0879e302659b91" data-parent="" data-short="2b5fdae" title="Run VIDiff for commit 2b5fdae">&#9655;</a></td>
       <td style="text-align:center"><a href="#" class="cidash-run" data-cap="snapshots" data-sha="2b5fdae2d29a2fa4d86111799d0879e302659b91" data-parent="" data-short="2b5fdae" title="Run VI Snapshots for commit 2b5fdae">&#9655;</a></td>
-      <td style="text-align:center"><a href="#" class="cidash-run" data-cap="unit-tests" data-sha="2b5fdae2d29a2fa4d86111799d0879e302659b91" data-parent="" data-short="2b5fdae" title="Run Unit Tests for commit 2b5fdae">&#9655;</a></td>
+      <td style="text-align:center"><span class="run-badge" title="Running — click to view progress"><a href="https://github.com/elijah286/LabVIEW-CI-Test19/actions/runs/28131288961" style="color:#fff;text-decoration:none;display:inline-flex;align-items:center;gap:5px"><span class="run-spin"></span>tests</a></span></td>
       <td style="text-align:center;color:var(--fg-muted);font-size:.75em">—</td>
     </tr></tbody>
   </table>
