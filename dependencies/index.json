@@ -2,43 +2,7 @@
   "schema": 1,
   "repo": "elijah286/LabVIEW-CI-Test19",
   "sha": "697eaccee1c454dab69fa0c69e74797e0b3a3f6b",
-  "revisions": [
-    {
-      "sha": "697eaccee1c454dab69fa0c69e74797e0b3a3f6b",
-      "short": "697eacc",
-      "message": "Add LabVIEW CI pipeline",
-      "author": "Elijah Kerry",
-      "date": "2026-06-24T22:48:52Z"
-    },
-    {
-      "sha": "73416f3886ab0f718870f1cfa89502bae7919599",
-      "short": "73416f3",
-      "message": "Add LabVIEW CI pipeline",
-      "author": "Elijah Kerry",
-      "date": "2026-06-24T21:23:18Z"
-    },
-    {
-      "sha": "a110ef35d071952d3e8f3a38f5912b41910f71de",
-      "short": "a110ef3",
-      "message": "Add LabVIEW CI pipeline",
-      "author": "Elijah Kerry",
-      "date": "2026-06-24T21:11:11Z"
-    },
-    {
-      "sha": "5accf8c86917d15124701c542b4f4bc229a8f194",
-      "short": "5accf8c",
-      "message": "Create .DS_Store",
-      "author": "Elijah Kerry",
-      "date": "2026-06-24T21:09:33Z"
-    },
-    {
-      "sha": "2b5fdae2d29a2fa4d86111799d0879e302659b91",
-      "short": "2b5fdae",
-      "message": "add",
-      "author": "Elijah Kerry",
-      "date": "2026-06-24T21:09:19Z"
-    }
-  ],
+  "revisions": [],
   "config": {
     "use": "",
     "actions": {},
